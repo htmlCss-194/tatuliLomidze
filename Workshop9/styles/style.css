@@ -1,0 +1,178 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header and navigation */
+li {
+    list-style: none;
+    font-family: fantasy;
+    text-decoration: underline;
+
+}
+header {
+    display: flex;
+    justify-content:space-around;
+    gap: 300px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header p {
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+/* section */
+
+section img {
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+}
+
+section h3 {
+    text-decoration:underline;
+    margin-left: 20%;
+    font-size: 25px;
+    text-shadow: 1px 2px rgba(53, 59, 107, 0.503);
+}
+
+.running-line {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(41, 8, 8, 0.322);
+    animation: line 10s linear infinite;
+}
+
+/* article */
+
+.container {
+    margin-top: 150px;
+}
+
+.container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.imageContainer img{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+}
+.imageContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imageWrapper {
+    position: relative;
+}
+
+.imageOverlay {
+    position: absolute;
+    top:80%;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* input */
+.subscribeInput {
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.subscribeInput p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subscribeInput input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribeInput button {
+    background-color: #5d4a3a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribeInput p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #d7d0d0; 
+    padding: 10px; 
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px; 
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+ 
+  .footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+/* hover */
+
+li:hover {
+    font-size: 20px;
+    background-color: rgb(176, 158, 136);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.subscribeInput button:hover {
+    background-color: black;
+}
+
+
+
+
+/* keyframe */
+
+@keyframes line {
+    0% {
+        left: 25%;
+    }
+    100% {
+        left: 100%;
+    }
+}
