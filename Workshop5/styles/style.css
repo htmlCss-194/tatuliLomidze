@@ -1,0 +1,68 @@
+.imageContainer  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageContainer img {
+    width: 400px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userInput {
+    margin-top: 40px;
+}
+
+.userInput input, button {
+border-radius: 20px;
+padding: 7px;
+box-shadow: 1px 2px pink;
+}
+
+.userInput p {
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.styled-table {
+    width: 100%;
+    width: 400px;
+    border-collapse: collapse;
+    border: 2px dashed #000;
+  }
+  
+  .styled-table th {
+    background-color: pink;
+    text-align: center;
+  }
+  
+  .styled-table td{
+    background-color: #E0FFFF; 
+    text-align: center;
+
+  }
+
+  .container {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    background-color: bisque;
+    border-radius: 20px;
+  }
