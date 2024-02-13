@@ -1,0 +1,78 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* fonts */
+
+@font-face {
+  font-family: 'italic';
+  src: url('../fonts/Poppins-BlackItalic.ttf');
+}
+@font-face {
+  font-family: 'medium';
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: 'semiBold';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'thin';
+  src: url('../fonts/Poppins-Thin.ttf');
+}
+
+/* roots */
+
+:root{
+  --colorParagraphs: rgb(254, 254, 254);
+  --colorTitles: rgb(155, 54, 47);
+  --fontSizeParagraphs: 20px;
+  --fontSizeQuotes: 35px;
+  --bckground: rgba(180, 166, 166, 0.474);
+  --bckgroundGrid: rgb(243, 237, 227);
+}
+
+/* About Us section */
+#aboutUs {
+  background-image: url("../img/slider1.jpg");
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#aboutUs h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-family: 'semiBold';
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  font-family: 'semiBold';
+
+}
+
+.map {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 50px;
+  margin-top: 50px; 
+
+}
+
